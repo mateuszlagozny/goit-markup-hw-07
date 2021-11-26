@@ -1,0 +1,22 @@
+.main {
+    margin: 0 auto;
+
+    &__heading {
+        margin-left: 15px;
+    }
+
+    &__paragraph {
+        color: #757575;
+    padding: 15px;
+    }
+
+    &__icons {
+        
+        width: 270px;
+        height: 120px;
+        background-color: $secondary-color;
+        margin-top: 94px;
+        text-align: center;
+    }
+    
+}

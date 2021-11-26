@@ -1,0 +1,21 @@
+.motto {
+    background-image: url(../images/img-tlo.png);
+    width: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    &__container {
+        flex-direction: column;
+    }
+
+    &__heading {
+        font-size: 44px;
+        font-weight: 900;
+        text-align: center;
+        padding-top: 200px;
+        padding-bottom: 30px;
+        color: #ffff;
+    }
+}

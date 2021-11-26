@@ -1,0 +1,87 @@
+
+
+.address {
+    color: #ffff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    &__city {
+        color: #ffff;
+        opacity: 60%;
+        font-size: 14px;
+    }
+
+    &__link {
+        color: #ffff;
+        opacity: 60%;
+        font-size: 14px;
+    }
+}
+
+
+.join-us {
+    color: #ffff;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.btn-sign-up {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    background-color: $primary-color;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    align-content: center;
+    border: none;
+    color: #fff;
+    
+}
+
+.email-sign-up {
+    height: 50px;
+    width: 358px;
+    background-color: #2F303A;
+    color: #ffff;
+    border-color: #fff;
+    outline: none;
+    border-radius: 4px;
+    border-color: rgba(255, 255, 255, 0.3);
+
+    &:hover {
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+
+.newsletter {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+
+    &__paragraph {
+        color: #fff;
+    }
+}
+.icon-sign-up {
+    
+    width: 24px;
+    height: 24px;
+    padding-left: 5px;
+    fill: #fff;
+    justify-content: center;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+span {
+    color:$primary-color;
+}

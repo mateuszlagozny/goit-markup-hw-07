@@ -1,0 +1,95 @@
+.menu__item--portfolio::after {
+    position: absolute;
+    content: "";
+    width: 68px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $primary-color; 
+    margin-top: 44px;
+    margin-left: -65px;
+}
+
+
+
+.main-portfolio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: $secondary-color;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        background-color: $primary-color;
+        color: #ffff;
+    }
+
+    &:focus {
+        background-color: $primary-color;
+        color: #ffff;
+    }
+}
+
+
+.images-portfolio {
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid;
+    border-color: #EEEEEE;
+
+    &:hover {
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+    }
+
+}
+
+.portfolio-images {
+    position: relative;
+    /* overflow: hidden; */
+
+}
+
+.description {
+    position: absolute;
+    background-color: rgba(33, 150, 243, 0.9);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+
+    transform: translateY(100%);
+    transition: transform 250ms ease;
+    
+ 
+}
+
+.add-card {
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+
+}
+
+.div {
+    display: inline;
+}
+
+
+
+.description > p {
+    color: #fff;
+    
+}
+
+.images-portfolio:hover .description {
+ 
+    transform: translateY(0);
+}
+

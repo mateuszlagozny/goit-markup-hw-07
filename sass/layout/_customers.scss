@@ -1,0 +1,10 @@
+.customers {
+    padding-top: 94px;
+    flex-direction: column;
+
+    &__item {
+        background-color: #ffff;
+    text-align: center;
+    justify-content: space-around;
+    }
+}
